@@ -33,23 +33,23 @@ Rsagen
 
 1. First, answer the first question about RSA key size. (How many bite do you have?) And the deafult value is 1024:
 
-![image](./assets/Chapter1.png)
+![image]([./assets/Chapter1.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter1.PNG))
 
 2. Next, choose the type of RSA key you want to generate (Default value is PrivateKey):
 
-![image](./assets/Chapter%202.png)
+![image]([./assets/Chapter%202.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter%202.PNG))
 
 3. Next, enter the filename for your key:
 
-![image](./assets/Chapter3.png)
+![image]([./assets/Chapter3.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter3.PNG))
 
 4. Next, enter the path where you want to create your file:
 
-![image](./assets/Chapter%204.png)
+![image]([./assets/Chapter%204.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter%204.PNG))
 
 5. Finally, you will see a success message, indicating that your key has been created:
 
-![image](./assets/Chapter5.png)
+![image]([./assets/Chapter5.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter5.PNG))
 
 **Made by AmirCodeZ**
 
