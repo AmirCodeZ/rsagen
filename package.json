@@ -1,6 +1,6 @@
 {
   "name": "rsagen",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple CLI tool to generate RSA private or public keys using Node.js",
   "main": "index.js",
   "type": "module",
