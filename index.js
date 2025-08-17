@@ -2,10 +2,8 @@
 
 import { text, outro, intro, select } from '@clack/prompts'
 import crypto from 'node:crypto'
-import fs from 'node:fs'
 import chalk from 'chalk'
-import path from 'node:path'
-
+import clipboardy from 'clipboardy'
 
 intro(`Wellcome to ${chalk.white(" rsagen ")}`)
 const bite = await text({
@@ -39,7 +37,8 @@ if (type === 'privateKey') {
             format: 'pem'
         }
     })
-    outro(`This Your RSA Key:\n ${chalk.green(privateKey)}`)
+    await clipboardy.write(privateKey)
+    outro(`This Your RSA Key:\n ${chalk.green(privateKey)} (--Auto Copied--)`)
 } else {
     const { publicKey } = crypto.generateKeyPairSync('rsa', {
         modulusLength: Number(bite),
@@ -48,8 +47,8 @@ if (type === 'privateKey') {
             format: 'pem'
         }
     })
-    
-    outro(`This Your RSA Key:\n ${chalk.green(publicKey)}`)
+    await clipboardy.write(publicKey)
+    outro(`This Your RSA Key:\n ${chalk.green(publicKey)} (--Auto Copied--)`)
 }
 
 
