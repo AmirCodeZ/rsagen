@@ -1,63 +1,22 @@
-# Rsagen 🔑✨
-
-Rsagen is a simple yet powerful Node.js CLI tool for generating **RSA keys** quickly and effortlessly.  
-It allows you to create **private and public RSA keys** without any complicated commands 🛠️💻.  
-Whether you are a beginner learning about cryptography, a developer building a small project, or an enthusiast experimenting with security, Rsagen makes the process smooth, fast, and highly interactive 🎓⚡.
-
-With Rsagen, you can:
-
-- 🔢 Choose the key size (1024, 2048, or custom) to fit your security needs  
-- 🔒 Pick a **Private Key** or **Public Key** with ease  
-- 📝 Set a descriptive file name for your keys  
-- 📂 Choose the exact location to save the generated key files  
-- ⚡ Enjoy a lightweight, blazing-fast tool that works seamlessly on any system supporting Node.js  
-
-Rsagen is designed to provide a **friendly interactive experience** ✨ that guides you step by step, reducing errors and making RSA key generation straightforward.  
-It is perfect for learning cryptography basics, integrating keys into your apps, or just experimenting in a safe environment 🛡️.  
-
----
-
-## Installation 💾🚀
-
-To install Rsagen globally, run the following command in your terminal:
-
-```bash
-npm install Rsagen
-```
-
-## Usage
-
-```sh
-Rsagen
-```
-
 1. First, answer the first question about RSA key size. (How many bite do you have?) And the deafult value is 1024:
 
-![image]([./assets/Chapter1.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter1.PNG))
+<img width="1572" height="261" alt="Chapter1" src="https://github.com/user-attachments/assets/79a70c7a-90ff-42bf-896e-b46d6131d81f" />
 
 2. Next, choose the type of RSA key you want to generate (Default value is PrivateKey):
 
-![image]([./assets/Chapter%202.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter%202.PNG))
+<img width="1568" height="261" alt="Chapter 2" src="https://github.com/user-attachments/assets/7a8e8bd2-d7db-4ea9-a92d-6e6b9e3bec22" />
+
 
 3. Next, enter the filename for your key:
 
-![image]([./assets/Chapter3.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter3.PNG))
+<img width="1579" height="264" alt="Chapter3" src="https://github.com/user-attachments/assets/d3a104e3-4f2f-4b8d-9ea4-1ac8f6cd58c6" />
 
 4. Next, enter the path where you want to create your file:
 
-![image]([./assets/Chapter%204.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter%204.PNG))
+<img width="1572" height="262" alt="Chapter 4" src="https://github.com/user-attachments/assets/c356538c-5855-472d-ab43-e8cbb6e5342b" />
 
 5. Finally, you will see a success message, indicating that your key has been created:
 
-![image]([./assets/Chapter5.png](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter5.PNG))
+<img width="1573" height="264" alt="Chapter5" src="https://github.com/user-attachments/assets/23d7036f-5d26-4353-bda9-f303d955918d" />
 
 **Made by AmirCodeZ**
-
-
-
-
-
-
-
-
-
