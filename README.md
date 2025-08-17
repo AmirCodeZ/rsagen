@@ -22,13 +22,13 @@ It is perfect for learning cryptography basics, integrating keys into your apps,
 To install Rsagen globally, run the following command in your terminal:
 
 ```bash
-npm install Rsagen
+npm install rsagen
 ```
 
 ## Usage
 
 ```sh
-Rsagen
+rsagen
 ```
 
 1. First, answer the first question about RSA key size. (How many bite do you have?) And the deafult value is 1024:
