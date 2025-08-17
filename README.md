@@ -25,6 +25,10 @@ To install Rsagen globally, run the following command in your terminal:
 npm install Rsagen
 ```
 
+```bash
+npx rsagen
+```
+
 ## Usage
 
 ```sh
@@ -39,17 +43,9 @@ Rsagen
 
 ![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter%202.PNG)
 
-3. Next, enter the filename for your key:
+3. Finally, you will see a success message, indicating that your key has been created:
 
 ![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter3.PNG)
-
-4. Next, enter the path where you want to create your file:
-
-![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter%204.PNG)
-
-5. Finally, you will see a success message, indicating that your key has been created:
-
-![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Chapter5.PNG)
 
 **Made by AmirCodeZ**
 

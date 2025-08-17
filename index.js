@@ -30,21 +30,6 @@ const type = await select({
     ]
 })
 
-const fileName = await text({
-    message: "Enter your FileName.",
-    placeholder: "Default filename is rsagen",
-    defaultValue: 'rsagen'
-})
-let URL = await text({
-    message: 'Where is your path to write rsa?',
-    placeholder : `Default URL is ./${fileName}`, 
-    defaultValue: `./${fileName}.key`
-})
-if (fs.existsSync(URL) && fs.lstatSync(URL).isDirectory()) {
-    URL = path.join(URL, `${fileName}.key`)
-}
-const dirName = path.dirname(URL)
-fs.mkdirSync(dirName, { recursive: true })
 
 if (type === 'privateKey') {
     const { privateKey } = crypto.generateKeyPairSync('rsa', {
@@ -54,7 +39,7 @@ if (type === 'privateKey') {
             format: 'pem'
         }
     })
-    fs.writeFileSync(URL, privateKey)
+    outro(`This Your RSA Key:\n ${chalk.green(privateKey)}`)
 } else {
     const { publicKey } = crypto.generateKeyPairSync('rsa', {
         modulusLength: Number(bite),
@@ -63,10 +48,10 @@ if (type === 'privateKey') {
             format: 'pem'
         }
     })
-    fs.writeFileSync(URL, publicKey)
+    
+    outro(`This Your RSA Key:\n ${chalk.green(publicKey)}`)
 }
 
 
 
-outro(`rsa key write in ${chalk.green(fileName)} successfully.`)
 outro(`${chalk.white(" rsagen ")}Made By AmirCodeZ`)
