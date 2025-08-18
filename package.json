@@ -1,6 +1,6 @@
 {
   "name": "rsagen",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A simple CLI tool to generate RSA keys",
   "main": "index.js",
   "type": "module",
