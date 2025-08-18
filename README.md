@@ -33,14 +33,14 @@ rsagen
 
 1. First, answer the first question about RSA key size. (How many bite do you have?) And the deafult value is 1024:
 
-<img width="1572" height="261" alt="Chapter1" src="https://github.com/AmirCodeZ/assets/Capture" />
+<img width="1572" height="261" alt="Chapter1" src="https://github.com/AmirCodeZ/assets/Capture.PNG" />
 
 2. Next, choose the type of RSA key you want to generate (Default value is PrivateKey):
 
-<img width="1568" height="261" alt="Chapter 2" src="https://github.com/AmirCodeZ/assets/Capture2" />
+<img width="1568" height="261" alt="Chapter 2" src="https://github.com/AmirCodeZ/assets/Capture2.PNG" />
 
 3. Finally, you will see a success message, indicating that your key has been created:
 
-<img width="1574" height="263" alt="Chapter3" src="https://github.com/AmirCodeZ/assets/Capture3" />
+<img width="1574" height="263" alt="Chapter3" src="https://github.com/AmirCodeZ/assets/Capture3.PNG" />
 
 **Made by AmirCodeZ**
