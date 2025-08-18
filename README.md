@@ -33,13 +33,13 @@ rsagen
 
 1. First, answer the first question about RSA key size. (How many bite do you have?) And the deafult value is 1024:
 
-![image](./assets/Capture.PNG)
+![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Capture.PNG)
 
 2. Next, choose the type of RSA key you want to generate (Default value is PrivateKey):
 
-![image](./assets/Capture2.PNG)
+![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Capture2.PNG)
 3. Finally, you will see a success message, indicating that your key has been created:
 
-![image](./assets/Capture3.PNG)
+![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Capture.PNG)
 
 **Made by AmirCodeZ**
