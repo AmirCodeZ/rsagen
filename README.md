@@ -40,6 +40,6 @@ rsagen
 ![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Capture2.PNG)
 3. Finally, you will see a success message, indicating that your key has been created:
 
-![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Capture.PNG)
+![image](https://github.com/AmirCodeZ/rsagen/blob/main/assets/Capture3.PNG)
 
 **Made by AmirCodeZ**
